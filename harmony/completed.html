@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Harmony Launcher</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <header class="header position-fixed flex-row align-items-center justify-content-center justify-content-md-between py-3 mb-4 zindex-fixed" id="home">
+            <a href="/" class=" align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none animate__animated animate__fadeInDown">
+                <img src="site-sublogo.svg" alt="Harmony Launcher logo" class="iconlogo">
+                <img src="site-logo.svg" alt="Harmony Launcher logo" class="text-logo">
+            </a>
+            <i class="far fa-bell position-relative fa-2x text-white mx-5">
+                <span class="bell-notification position-absolute top-0 start-100 translate-middle badge border border-light rounded-pill bg-primary p-2">12 </span>
+            </i>
+            <div class="header-bar animate__animated animate__fadeInUp">
+                <ul class="nav col mb-2 mb-0">
+                    <li>
+                        <a href="#home" class="nav-link px-2 link-dark header-nav__link"><i class="fas fa-home"></i> Home</a>
+
+                    </li>
+                    <li><a href="#cases" class="nav-link px-2 link-dark header-nav__link"><i class="far fa-lightbulb"></i> Use Cases</a></li>
+                    <li><a href="#features" class="nav-link px-2 link-dark header-nav__link"><i class="fas fa-bolt"></i> Features</a></li>
+                    <li><a href="#team" class="nav-link px-2 link-dark header-nav__link"><i class="fas fa-user"></i> Team</a></li>
+                    <li><a href="#roadmap" class="nav-link px-2 link-dark header-nav__link"><i class="fas fa-map"></i> Roadmap</a></li>
+                </ul>
+
+                <div class="d-inline-flex">
+                    <button type=" button " class="btn btn-primary btn-skew w-50"><i class="fas fa-globe "></i> <span>Go to App</span></button>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control neo-field p-2 text-white ms-4" name="wallet-address" id="wallet-address" placeholder="QRWERTY10226#AKK01P222 ..." aria-label="wallet address" aria-describedby="wallet-address">
+                        <span class="input-group-text" id="wallet-address"><i class="far fa-copy"></i></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </div>
+
+    <div class="container-fluid px-5 top-margin" style="margin-top: 180px;">
+        <div class="inside-tab p-4">
+            <div class="row">
+                <div class="col">
+                    <div class="row g-0 d-flex justify-content-center">
+                        <div class="col-2 p-4 neo d-flex" style="width: 100px; height: 100px;">
+                            <img src="images/tab-icon2.png" alt="" class="img-fluid shadow-sm">
+                        </div>
+                        <div class="col-10 ps-md-4 mb-4">
+                            <h2 class="text-white fs-2">Cheers Land</h2>
+                            <p class="text-secondary pb-3">CheersLand is a scalable GameFi Metaverse Aggregator where anyone can monetize their gaming experiences and social networks.</p>
+                            <div class="row gx-2 mb-4">
+                                <div class="col d-flex justify-content-start py-2">
+                                    <a href="#" class="neo me-2 d-flex justify-content-center align-items-center fs-4" style="width: 64px; height: 46px;"><i class="fab fa-twitter text-secondary"></i></a>
+                                    <a href="#" class="neo me-2 d-flex justify-content-center align-items-center fs-4" style="width: 64px; height: 46px;"><i class="fab fa-medium-m text-secondary"></i></a>
+                                    <a href="#" class="neo me-2 d-flex justify-content-center align-items-center fs-4" style="width: 64px; height: 46px;"><i class="fab fa-telegram-plane text-secondary"></i></a>
+                                    <a href="#" class="neo me-2 d-flex justify-content-center align-items-center fs-4" style="width: 64px; height: 46px;"><i class="fas fa-globe text-secondary"></i></a>
+                                </div>
+                            </div>
+                            <div class="row py-4">
+                                <div class="col">
+                                    <p class="text-secondary mb-0">TOTAL RAISE</p>
+                                    <p class="text-primary fs-3 fw-bold">$10.000</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-secondary mb-0">NETWORK</p>
+                                    <p class="text-white fs-3 fw-bold"><i class="fas fa-coins"></i> Binance</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-secondary mb-0">PARTICIPANTS</p>
+                                    <p class="text-white fs-3 fw-bold">200</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-secondary mb-0">ACCESS</p>
+                                    <p class="text-white fs-3 fw-bold">Public</p>
+                                </div>
+                            </div>
+                            <div class="row py-4">
+                                <div class="col text-wrap">
+                                    <p class="text-secondary mb-0">IDO SALE CONTRACT ADDRESS</p>
+                                    <p class="text-white fs-4 fw-bold text-wrap">0x2e8c611931a379f7b1d14ff1e65d8061019c4e13 <i class="far fa-copy ps-2"></i></p>
+                                </div>
+
+                            </div>
+                            <a class="neo" href="#"> View BscScan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inside-tab p-5">
+                        <div class="col d-flex justify-content-end py-2 align-items-center">
+                            <a href="#" class="neo float-end"><i class="fas fa-dollar-sign dollar-icon-blue text-dark"></i> 1BNB=4K$CHEERS</a>
+                        </div>
+
+                        <div class="row p-3 mt-5">
+                            <div class="col position-relative">
+                                <span class="dollar-place position-absolute  translate-middle"><i class="fas fa-dollar-sign fa-5x text-dark"></i></span>
+                                <p class="raise-amount text-white position-relative zindex-fixed fs-1 fw-bold mb-0">142.499,50 BNB</p>
+                                <p class="text-white fs-6">Total Raise Amount</p>
+                            </div>
+                            <div class="col text-md-end text-sm-start">
+                                <p class="text-white fs-6">LIVE WHITELISTING STARTS IN</p>
+                                <p class="raise-amount text-white position-relative zindex-fixed fs-3 fw-bold mb-0">02 D : 16 H : 21 M : 17 S</p>
+
+                            </div>
+                        </div>
+                        <div class="row py-3">
+
+                            <div class="col mb-3">
+                                <p class="text-secondary">SWAP AMOUNT</p>
+                                <a class="neo text-primary px-4" href="#"> 83,333 $MYNE</a>
+
+                            </div>
+                            <div class="col mb-3">
+                                <p class="text-secondary">TOTAL RAISE</p>
+                                <a class="neo text-white px-4" href="#">20/20BNB</a>
+
+
+                            </div>
+                            <div class="col mb-3">
+                                <p class="text-secondary">ESTIMATED GAS FEE</p>
+                                <a class="neo text-white px-4" href="#">0 GWEI</a>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="row py-3">
+                            <p class="text-secondary mb-0">PROGRESS</p>
+                            <div class="progress mx-3" style="height: 16px;">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 47%" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row py-3">
+                            <div class="col mb-3">
+                                <a href="#" class="neo float-start">90% Completed</a>
+                            </div>
+                            <div class="col text-md-end text-sm-center">
+                                <p class="text-white fs-5">532K/550K $TRY</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-5">
+        <div class="row row-cols-md-2">
+            <div class="col">
+                <h2 class="text-white fw-bold">Pool Information</h2>
+                <div class="inside-tab p-5">
+                    <div class="row row-cols-md-3">
+                        <div class="col">
+                            <p class="text-secondary mb-0">TOKEN DISTRIBUTION</p>
+                            <p class="text-white fs-3 fw-bold">11/2/2021</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-secondary mb-0">MIN. ALLOCATION</p>
+                            <p class="text-white fs-3 fw-bold">$25</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-secondary mb-0">MIN. ALLOCATION (BNB)</p>
+                            <p class="text-white fs-3 fw-bold">0.05 BNB</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-secondary mb-0">ALLOCATION SIZE</p>
+                            <p class="text-white fs-3 fw-bold">$50</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-secondary mb-0">ALLOCATION SIZE (BNB)</p>
+                            <p class="text-white fs-3 fw-bold">0.1 BNB</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <h2 class="text-white fw-bold">Token Information</h2>
+                <div class="inside-tab p-5">
+                    <div class="row row-cols-md-4">
+                        <div class="col">
+                            <p class="text-secondary mb-0">NAME</p>
+                            <p class="text-white fs-3 fw-bold">CHEERS</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-secondary mb-0">SYMBOL</p>
+                            <p class="text-white fs-3 fw-bold">$CHEERS</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-secondary mb-0">DECIMALS</p>
+                            <p class="text-white fs-3 fw-bold">18</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-secondary mb-0">TOTAL SUPPLY</p>
+                            <p class="text-white fs-3 fw-bold">100</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-secondary mb-0">ADDRESS</p>
+                            <div class="badge badge-primary text-white text-wrap" style="width: 15rem;">0x2e8c611931a379f7b1d14ff1e65d8061019c4e13 <i class="far fa-copy ps-2"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <h2 class="text-white pt-5">About the Project</h2>
+                <p class="text-secondary py-3">CheersLand is a scalable GameFi Metaverse Aggregator where anyone can monetize their gaming experiences and social networks. CheersLand GameFi Metaverse Aggregator is composed of multi-game combinations, Ranking List, Initial Gaming Offering
+                    (IGO), NFT Market, Multi-asset Staking Platform, etc. $CHEERS is a BEP20 native utility token of CheersLand built on the Binance Smart Chain network.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

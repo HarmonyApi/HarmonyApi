@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Harmony Launcher</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <header class="header position-fixed flex-row align-items-center justify-content-center justify-content-md-between py-3 mb-4 zindex-fixed" id="home">
+            <a href="/" class=" align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none animate__animated animate__fadeInDown">
+                <img src="site-sublogo.svg" alt="Harmony Launcher logo" class="iconlogo">
+                <img src="site-logo.svg" alt="Harmony Launcher logo" class="text-logo">
+            </a>
+            <i class="far fa-bell position-relative fa-2x text-white mx-5">
+                <span class="bell-notification position-absolute top-0 start-100 translate-middle badge border border-light rounded-pill bg-primary p-2">12 </span>
+            </i>
+            <div class="header-bar animate__animated animate__fadeInUp">
+                <ul class="nav col mb-2 mb-0">
+                    <li>
+                        <a href="#home" class="nav-link px-2 link-dark header-nav__link"><i class="fas fa-home"></i> Home</a>
+
+                    </li>
+                    <li><a href="#cases" class="nav-link px-2 link-dark header-nav__link"><i class="far fa-lightbulb"></i> Use Cases</a></li>
+                    <li><a href="#features" class="nav-link px-2 link-dark header-nav__link"><i class="fas fa-bolt"></i> Features</a></li>
+                    <li><a href="#team" class="nav-link px-2 link-dark header-nav__link"><i class="fas fa-user"></i> Team</a></li>
+                    <li><a href="#roadmap" class="nav-link px-2 link-dark header-nav__link"><i class="fas fa-map"></i> Roadmap</a></li>
+                </ul>
+
+                <div class="d-inline-flex">
+                    <button type=" button " class="btn btn-primary btn-skew w-50"><i class="fas fa-globe "></i> <span>Go to App</span></button>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control neo-field p-2 text-white ms-4" name="wallet-address" id="wallet-address" placeholder="QRWERTY10226#AKK01P222 ..." aria-label="wallet address" aria-describedby="wallet-address">
+                        <span class="input-group-text" id="wallet-address"><i class="far fa-copy"></i></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </div>
+
+    <div class="container-fluid px-5 top-margin" style="margin-top: 180px;">
+        <div class="row gx-5">
+            <div class="col-md-2 d-flex flex-column flex-shrink-0 p-3 text-white profile-sidebar sticky-top position-relative">
+                <div class="row g-0">
+                    <div class="col ">
+                        <img src="images/banner01.jpg" alt="" class="img-fluid float-start shadow-sm">
+                    </div>
+                    <div class="col">
+                        <ul class="list-unstyled px-3 fs-6 float-end d-inline">
+                            <li>
+                                <i class="far fa-user"></i> Alexander
+                            </li>
+                            <li>
+                                <i class="fas fa-globe"></i> Network:
+                            </li>
+                            <li>
+                                <i class="fab fa-ethereum"></i> Ethereum
+                            </li>
+                            <li>
+                                QRWERTY10...
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <span class="fs-6">Total Balance</span>
+                        <div class="neo p-3 fs-6 d-flex align-items-center justify-content-between">
+                            <span class="float-start"><i class="fas fa-dollar-sign"></i> 100000</span>
+                            <a href=" # " class="btn-badge-icons text-end"><i class="fas fa-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <span class="fs-6">Locked Tokens</span>
+                        <div class="neo p-3 fs-6 d-flex align-items-center justify-content-between">
+                            <span class="float-start"><i class="fas fa-coins"></i> 0</span>
+                            <a href=" # " class="btn-badge-icons float-end"><i class="fas fa-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <span class="fs-6">Prot Holdings</span>
+                        <div class="neo p-3 fs-6 d-flex align-items-center justify-content-between">
+                            <span class="float-start"><i class="fab fa-buffer"></i> 0</span>
+                            <a href=" # " class="btn-badge-icons float-end"><i class="fas fa-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <span class="fs-6">Wallet Balance</span>
+                        <div class="neo p-3 fs-6 d-flex align-items-center justify-content-between">
+                            <span class="float-start"><i class="fas fa-wallet"></i> 70000</span>
+                            <a href=" # " class="btn-badge-icons float-end"><i class="fas fa-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col">
+
+                        <div class="inside-tab p-4">
+                            <div class="project-detail d-flex align-items-center justify-content-md-between">
+                                <div class="project-info text-secondary fs-5">
+                                    <span class="neo"><img src="images/tab-icon2.png" class="img-thumbnail w-25 shadow me-2" alt="pic"></span> Octopus Protocol
+                                </div>
+                                <div class="project-label">
+                                    <div class="status text-end">
+                                        <a href="#" class="neo"><i class="fas fa-star text-primary"></i> Applications Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="fs-4 text-white pt-3">Announcing Try Hards Whitelisting on Prostarter Launchpad</p>
+                            <p class="text-secondary">Octopus Protocol is an open-source protocol facilitating unparalleled access and exposure to real-world assets. Octopus Protocol, built on the Binance Smart Chain (BSC), allows engagement with decentralized derivatives by enabling
+                                a platform to create, exchange, settle and manage synthetic assets. Octopus Protocol $OPS is a BEP-20 token built on the Binance Smart Chain Network.</p>
+                            <img src="images/preview.png" class="img-fluid" alt="">
+                            <p class="fs-4 text-white pt-3">Try Hards IGO Detail</p>
+                            <ul class="p-3 text-secondary">
+                                <li>Live IGO Whitelisting Date: To Be Announced</li>
+                                <li>Total AlLocation: $50,000</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="title text-white fs-2 fw-bold">Announcing Try Hards Whitelisting on <br> Prostarter Launchpad</div>
+                        <p class="text-secondary py-4 fs-6 fw-bolder">Welcome to Harmony Launcher!</p>
+
+                        <div class="inside-tab p-4">
+                            <p class="text-secondary">Please fill out the form and perform all tasks accordingly. Ensure that the information submitted is accurate as it will be used for KYC afterwards. If you have any questions, please contact us on <a href="#">Telegram.</a></p>
+                        </div>
+                        <p class="text-secondary py-4 fs-6 fw-bolder">Good luck and thank you for your support!</p>
+                        <form class="" method="post" action="#">
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <label for="full-name" class="fs-6 text-secondary py-1">Full Name</label>
+                                    <input type="text" id="full-name" name="full-name" class="form-control neo-field p-3 text-white" placeholder="John" aria-label="Full name">
+                                </div>
+                                <div class="col">
+                                    <label for="emailID" class="fs-6 text-secondary py-1">Email Address</label>
+                                    <input type="email" id="emailID" name="emailID" class="form-control neo-field p-3 text-white" placeholder="john@example.com" aria-label="email">
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <label for="wallet-address" class="fs-6 text-secondary py-1">ERC-20 Wallet Address</label>
+                                    <input type="text" id="wallet-address" name="wallet-address" class="form-control neo-field p-3 text-white" placeholder="QRWERTY10226#AKK01P222acd56e$21rfa3241" aria-label="wallet address">
+                                </div>
+                            </div>
+
+                            <div class="row mb-2">
+                                <div class="col float-start">
+                                    <a class="btn btn-neo p-3 fs-5 fw-normal" href="#">Prot Pool</a>
+                                </div>
+                                <div class="col">
+                                    <a class="btn btn-neo p-3 fs-5 fw-normal" href="#">Public Pool</a>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="telegram" class="fs-6 text-secondary py-1">Telegram Handle</label>
+                                    <input type="text" id="telegram" name="telegram" class="form-control neo-field p-3 text-white" placeholder="@telegram_name" aria-label="telegram">
+                                </div>
+                                <div class="col">
+                                    <label for="twitter" class="fs-6 text-secondary py-1">Twitter Handle</label>
+                                    <input type="text" id="twitter" name="twitter" class="form-control neo-field p-3 text-white" placeholder="Twitter_name" aria-label="twitter">
+                                </div>
+                            </div>
+
+                            <p class="text-secondary py-4">Paste the tweet link where you`ve tweeted about your favorite feature of Try Hards using the hashtags $TRY, #Prostarter and $PROT (Optional)</p>
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <!-- <label for="tweet" class="fs-6 text-secondary py-1">ERC-20 Wallet Address</label> -->
+                                    <input type="text" id="tweet" name="tweet" class="form-control neo-field p-3 text-white" placeholder="https://twitter.com/ProtOfficial/status/13241532532121124" aria-label="tweet">
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <p class="text-white py-4 fs-6 fw-bolder">Have You followed the below steps</p>
+                                <div class="col-12 mb-3">
+                                    <div class="form-check d-flex align-items-center">
+                                        <input class="form-check-input neo-field p-3 me-2 text-white" type="checkbox" id="follow_twitter">
+                                        <label class="form-check-label" for="follow_twitter">
+                                        <span class="text-white">Have you followed <a href="#">Try Hards Twitter</a> Account</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check d-flex align-items-center">
+                                        <input class="form-check-input neo-field p-3 me-2 text-white" type="checkbox" id="follow_telegram">
+                                        <label class="form-check-label" for="follow_telegram">
+                                            <span class="text-white">Join <a href="#">Try Hards Telegram</a> Community Group</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type=" button " class="btn btn-primary btn-skew mw-100 mb-4"><i class="fas fa-globe "></i> <span>Go to App</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
